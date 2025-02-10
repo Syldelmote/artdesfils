@@ -13,6 +13,7 @@ api/vendor/
 api/.DS_Store
 api/.thumbs.db
 */node_modules
+.vscode
 
 # Quasar core related directories
 */.quasar
