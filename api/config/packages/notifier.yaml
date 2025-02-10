@@ -1,0 +1,13 @@
+framework:
+    notifier:
+        texter_transports:
+            freemobile: '%env(FREE_MOBILE_DSN)%'
+
+        channel_policy:
+            # use chat/slack, chat/telegram, sms/twilio or sms/nexmo
+            urgent: ['freemobile']
+            high: ['freemobile']
+            medium: ['freemobile']
+            low: ['freemobile']
+        admin_recipients:
+            - { email: admin@example.com }

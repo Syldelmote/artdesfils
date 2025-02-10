@@ -1,0 +1,53 @@
+
+###> symfony/framework-bundle ###
+api/.env.local
+*/.env.local
+api/.env.prod
+api/.env.local.php
+*/.env.*.local
+api/config/secrets/prod/prod.decrypt.private.php
+api/public/bundles/
+api/var/
+api/vendor/
+###< symfony/framework-bundle ###
+api/.DS_Store
+api/.thumbs.db
+*/node_modules
+
+# Quasar core related directories
+*/.quasar
+*/dist
+
+# Cordova related directories and files
+*/src-cordova/node_modules
+*/src-cordova/platforms
+*/src-cordova/plugins
+*/src-cordova/www
+*/front/dist
+
+# Capacitor related directories and files
+*/src-capacitor/www
+*/src-capacitor/node_modules
+
+*/.editorconfig
+*/.npmrc
+*/.env
+
+
+# Log files
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+/api/public/uploads/*
+.DS_Store
+front/.DS_Store
+api/public/catalog_products.csv
+api/src/DataFixtures/UserFixtures.php

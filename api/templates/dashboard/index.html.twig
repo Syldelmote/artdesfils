@@ -1,0 +1,16 @@
+{% extends '@EasyAdmin/page/content.html.twig' %}
+
+{% block page_content %}
+    <div class="row">
+        <h5 class="card-title">Nombre de Produits référencés :  {{ totalArticles }}</h5>
+    </div>
+
+    {# Nouveau bouton pour créer un produit #}
+    <div class="row mt-4">
+        <div class="col-12">
+            <a href="{{ newProductUrl }}" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Ajouter un produit
+            </a>
+        </div>
+    </div>
+{% endblock %}

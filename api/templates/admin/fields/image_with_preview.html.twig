@@ -1,0 +1,6 @@
+{% if field.value %}
+    <div class="image-preview">
+        <img src="{{ asset(field.formattedValue) }}" alt="{{ field.label }}" style="max-width: 40px; max-height: 40px;">
+    </div>
+{% endif %}
+{# {{ form_widget(form) }} #}
