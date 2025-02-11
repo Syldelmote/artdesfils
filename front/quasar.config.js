@@ -23,14 +23,6 @@ module.exports = configure(function (ctx) {
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
-      // 'ionicons-v4',
-      // 'mdi-v5',
-      // 'fontawesome-v6',
-      // 'eva-icons',
-      // 'themify',
-      // 'line-awesome',
-      // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
-
       'roboto-font', // optional, you are not bound to it
       'material-icons', // optional, you are not bound to it
     ],
@@ -55,14 +47,13 @@ module.exports = configure(function (ctx) {
       env: {
         API: ctx.dev
         ? 'https://localhost:8000'
-        : 'https://artdesfils.fr/api/public'
+        : 'https://artdesfils.com/api/public'
       },
       // rawDefine: {}
       // ignorePublicFolder: true,
       // minify: false,
       // polyfillModulePreload: true,
-      // distDir
-
+       distDir: '../build/front',
       // extendViteConf (viteConf) {},
       // viteVuePluginOptions: {},
 

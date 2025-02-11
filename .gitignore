@@ -14,7 +14,7 @@ api/.DS_Store
 api/.thumbs.db
 */node_modules
 .vscode
-
+build
 # Quasar core related directories
 */.quasar
 */dist
